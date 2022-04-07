@@ -1,0 +1,207 @@
+{
+  "direction": "ltr",
+  "overrides": {},
+  "transitions": {
+    "easing": {
+      "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+      "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+      "sharp": "cubic-bezier(0.4, 0, 0.6, 1)"
+    },
+    "duration": {
+      "shortest": 150,
+      "shorter": 200,
+      "short": 250,
+      "standard": 300,
+      "complex": 375,
+      "enteringScreen": 225,
+      "leavingScreen": 195
+    }
+  },
+  "typography": {
+    "headline": {
+      "colorRK": "rgba(0, 0, 0, 0.87)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "lineHeight": "1.35417em",
+      "fontSize": "1.5rem",
+      "fontWeight": 400
+    },
+    "display2": {
+      "marginLeft": "-.02em",
+      "colorRK": "rgba(0, 0, 0, 0.54)",
+      "color": "rgba(0, 0, 0, 0.55)",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "lineHeight": "1.13333em",
+      "fontSize": "2.8125rem",
+      "fontWeight": 400
+    },
+    "fontWeightLight": 300,
+    "display3": {
+      "marginLeft": "-.02em",
+      "colorRK": "rgba(0, 0, 0, 0.54)",
+      "color": "rgba(0, 0, 0, 0.56)",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "letterSpacing": "-.02em",
+      "lineHeight": "1.30357em",
+      "fontSize": "3.5rem",
+      "fontWeight": 400
+    },
+    "display4": {
+      "marginLeft": "-.04em",
+      "colorRK": "rgba(0, 0, 0, 0.54)",
+      "color": "rgba(0, 0, 0, 0.57)",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "letterSpacing": "-.04em",
+      "lineHeight": "1.14286em",
+      "fontSize": "7rem",
+      "fontWeight": 300
+    },
+    "fontWeightRegular": 400,
+    "display1": {
+      "colorRK": "rgba(0, 0, 0, 0.54)",
+      "color": "rgba(0, 0, 0, 0.58)",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "lineHeight": "1.20588em",
+      "fontSize": "1.125rem",
+      "fontWeight": 400
+    },
+    "button": {
+      "textTransform": "uppercase",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "fontSize": "0.875rem",
+      "fontWeight": 500
+    },
+    "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+    "body2": {
+      "colorRK": "rgba(0, 0, 0, 0.87)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "lineHeight": "1.71429em",
+      "fontSize": "0.875rem",
+      "fontWeight": 500
+    },
+    "caption": {
+      "colorRK": "rgba(0, 0, 0, 0.54)",
+      "color": "rgba(0, 0, 0, 0.59)",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "lineHeight": "1.375em",
+      "fontSize": "0.75rem",
+      "fontWeight": 400
+    },
+    "fontSize": 14,
+    "fontWeightMedium": 500,
+    "title": {
+      "colorRK": "rgba(0, 0, 0, 0.87)",
+      "color": "#fff",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "lineHeight": "1.16667em",
+      "fontSize": "1.3125rem",
+      "fontWeight": 500
+    },
+    "subheading": {
+      "colorRK": "rgba(0, 0, 0, 0.87)",
+      "color": "#fff",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "lineHeight": "1.5em",
+      "fontSize": "1rem",
+      "fontWeight": 400
+    },
+    "body1": {
+      "colorRK1": "rgba(0, 0, 0, 0.87)",
+      "color": "#fff",
+      "fontFamily": "\"Roboto\", \"Helvetica\", \"Arial\", sans-serif",
+      "lineHeight": "1.46429em",
+      "fontSize": "0.875rem",
+      "fontWeight": 400
+    }
+  },
+  "zIndex": {
+    "modal": 1300,
+    "snackbar": 1400,
+    "drawer": 1200,
+    "appBar": 1100,
+    "mobileStepper": 1000,
+    "tooltip": 1500
+  },
+  "shape": {
+    "borderRadius": 4
+  },
+  "props": {},
+  "spacing": {
+    "unit": 8
+  },
+  "palette": {
+    "tonalOffset": 0.2,
+    "background": {
+      "paperRK": "#8747c4",
+      "paper": "#263238",
+      "default": "#9e9e9e"
+    },
+    "contrastThreshold": 3,
+    "grey": {
+      "50": "#fafafa",
+      "100": "#f5f5f5",
+      "200": "#eeeeee",
+      "300": "#e0e0e0",
+      "400": "#bdbdbd",
+      "500": "#9e9e9e",
+      "600": "#757575",
+      "700": "#616161",
+      "800": "#424242",
+      "900": "#212121",
+      "A700": "#616161",
+      "A100": "#d5d5d5",
+      "A400": "#303030",
+      "A200": "#aaaaaa"
+    },
+    "text": {
+      "primary": "#ffffff",
+      "secondary": "#ffffff",
+      "disabled": "rgba(0, 0, 0, 0.38)",
+      "hint": "rgba(0, 0, 0, 0.38)"
+    },
+    "dividerRK": "rgba(0, 0, 0, 0.12)",
+    "divider": "#fff",
+    "svgIcon": {
+      "color": "#fff"
+    },
+    "avatar": {
+      "color": "#ff5722",
+      "backgroundColor": "#ffeb3b"
+    },
+    "secondary": {
+      "main": "#263238",
+      "light": "rgb(81, 91, 95)",
+      "dark": "rgb(26, 35, 39)",
+      "contrastText": "#fff"
+    },
+    "common": {
+      "black": "#000",
+      "white": "#fff"
+    },
+    "error": {
+      "light": "#e57373",
+      "main": "#f44336",
+      "dark": "#d32f2f",
+      "contrastText": "#fff"
+    },
+    "type": "dark",
+    "action": {
+      "hoverOpacity": 0.08,
+      "hover": "rgba(0, 0, 0, 0.08)",
+      "selected": "#551793",
+      "disabledBackground": "rgba(0, 0, 0, 0.12)",
+      "disabled": "rgba(0, 0, 0, 0.26)",
+      "active": "rgba(0, 0, 0, 0.54)"
+    },
+    "primary": {
+      "main": "#551793",
+      "light": "rgb(119, 69, 168)",
+      "dark": "rgb(59, 16, 102)",
+      "contrastText": "#fff"
+    }
+  },
+  "themeName": "Daisy Bush Outer Space Ring-tailed Mongoose"
+}

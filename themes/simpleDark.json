@@ -1,0 +1,75 @@
+{
+  "palette": {
+    "type": "dark",
+    "background": {
+      "paper": "#424242",
+      "default": "#303030",
+      "secondaryDefault": "rgb(255 255 255 / 10%)"
+    },
+    "primary": {
+      "main": "rgba(0, 176, 255, 0.9)"
+    },
+    "secondary": {
+      "main": "rgba(255, 255, 255, 0.7)"
+    },
+    "error": {
+      "light": "#e57373",
+      "main": "#f44336",
+      "dark": "#f44336",
+      "contrastText": "#fff"
+    }
+  },
+  "overrides": {
+    "MuiTypography": {
+      "root": {
+        "font-family": "Muli,Roboto, Helvetica, Arial,sans-serif"
+      }
+    },
+    "MuiTableCell": {
+      "root": {
+        "font-size": "1rem"
+      },
+      "head": {
+        "font-weight": "bold"
+      }
+    },
+    "MuiButtonBase": {
+      "root": {
+        "&$disabled": {
+          "cursor": "not-allowed",
+          "pointer-events": "unset"
+        }
+      }
+    },
+    "MuiFormControl": {
+      "root": {
+        "background-color": "#424242"
+      }
+    },
+    "MuiInputBase": {
+      "input": {
+        "&$disabled": {
+          "cursor": "not-allowed"
+        }
+      }
+    },
+    "MuiSelect": {
+      "select": {
+        "&$disabled": {
+          "cursor": "not-allowed"
+        }
+      }
+    },
+    "MuiListItem": {
+      "root": {
+        "&$disabled": {
+          "opacity": "0.8"
+        }
+      }
+    }
+  },
+  "shape": {
+    "borderRadius": 4
+  },
+  "props": {}
+}
